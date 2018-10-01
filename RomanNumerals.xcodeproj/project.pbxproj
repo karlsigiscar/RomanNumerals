@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F9B1668216237930025465C /* Entries.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F9B166A216237930025465C /* Entries.strings */; };
+		AE88A011BDD6865EA8053C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE88A8CF8BDD535BB36F7F34 /* Assets.xcassets */; };
+		AE88A05810B381B60962B3DC /* RomanNumeralsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88ADBA921E93F76A3DFA2B /* RomanNumeralsTests.swift */; };
+		AE88A1F5AC57F91F19E32748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE88A9AA0FC44B09F0DB118C /* Main.storyboard */; };
+		AE88A283018C73B4C0FB98F9 /* RomanNumeralsConverterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88AF15A5557D7CA3236441 /* RomanNumeralsConverterImpl.swift */; };
+		AE88A3D8DF5D735A41406325 /* RomanNumeralsConverterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88AEFB5E4138EB166E9AB5 /* RomanNumeralsConverterFactory.swift */; };
+		AE88A3DCB46DF8E624CB45F1 /* RomanNumeralsConverterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88AEFB5E4138EB166E9AB5 /* RomanNumeralsConverterFactory.swift */; };
+		AE88A46B092CBFF4B48DA492 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88A67715F563D46D21A828 /* ViewController.swift */; };
+		AE88A47415340FEEDCF6BA21 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88A44588879CD81790F823 /* ViewModel.swift */; };
+		AE88A5315666AEEB0CFD4CF7 /* RomanNumeralsConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88ADC0FEFE1F26BCFB9A3D /* RomanNumeralsConverter.swift */; };
+		AE88A5E32439C8026133ECA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88ABC8D891C99B9C353DEC /* AppDelegate.swift */; };
+		AE88A6B891005CEC0C812CA4 /* RomanNumeralsConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88ADC0FEFE1F26BCFB9A3D /* RomanNumeralsConverter.swift */; };
+		AE88A7932961DE054E0E694C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88A44588879CD81790F823 /* ViewModel.swift */; };
+		AE88A85E2AF3BECBB09B6373 /* RomanNumeralsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88AF60957FF775124B79D8 /* RomanNumeralsViewModelTests.swift */; };
+		AE88AA11AF66AB20FFC23CCC /* RomanNumeralsConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88ADC0FEFE1F26BCFB9A3D /* RomanNumeralsConverter.swift */; };
+		AE88ABA67985D85F8C6A82C2 /* RomanNumeralsConverterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88AF15A5557D7CA3236441 /* RomanNumeralsConverterImpl.swift */; };
+		AE88ABC436299D284E2CEB08 /* RomanNumeralsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88AAB073699BE5F406D27A /* RomanNumeralsUITests.swift */; };
+		AE88AE556AB37B7D6DFBE992 /* RomanNumeralsConverterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88AF15A5557D7CA3236441 /* RomanNumeralsConverterImpl.swift */; };
+		AE88AFB9ED4D73E85A7DF2C9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88A44588879CD81790F823 /* ViewModel.swift */; };
+		AE88AFCF81C0D6012BC830AE /* RomanNumeralsConverterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE88AEFB5E4138EB166E9AB5 /* RomanNumeralsConverterFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE88A2E5EABBE4F0A7702710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE88ADEFD60ABB9CA7DA0B0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE88AA04964D5D0AE2C6B9DC;
+			remoteInfo = RomanNumerals;
+		};
+		AE88AFAC125E3E7D6B1FC2D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE88ADEFD60ABB9CA7DA0B0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE88AA04964D5D0AE2C6B9DC;
+			remoteInfo = RomanNumerals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F9B1669216237930025465C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Entries.strings; sourceTree = "<group>"; };
+		AE88A44588879CD81790F823 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AE88A5228365F3A6D28E24CB /* RomanNumerals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RomanNumerals.entitlements; sourceTree = "<group>"; };
+		AE88A639B76AC3C30FCEA163 /* RomanNumerals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanNumerals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE88A67715F563D46D21A828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE88A8CF8BDD535BB36F7F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE88AAB073699BE5F406D27A /* RomanNumeralsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsUITests.swift; sourceTree = "<group>"; };
+		AE88AB478205B9C3B901D0BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE88ABC8D891C99B9C353DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE88ABE339643C411647C322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AE88ACEB0216FB8E76C455CB /* RomanNumeralsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE88ADBA921E93F76A3DFA2B /* RomanNumeralsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanNumeralsTests.swift; sourceTree = "<group>"; };
+		AE88ADC0FEFE1F26BCFB9A3D /* RomanNumeralsConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralsConverter.swift; sourceTree = "<group>"; };
+		AE88ADF3F5C74B75A6A764C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AE88AE902B31BCB277BF2D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		AE88AEC475D24ABABFDE7EDD /* RomanNumeralsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanNumeralsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE88AEFB5E4138EB166E9AB5 /* RomanNumeralsConverterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralsConverterFactory.swift; sourceTree = "<group>"; };
+		AE88AF15A5557D7CA3236441 /* RomanNumeralsConverterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralsConverterImpl.swift; sourceTree = "<group>"; };
+		AE88AF60957FF775124B79D8 /* RomanNumeralsViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanNumeralsViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE88A0EAB22F2933F14BDE91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE88A64AE7DE74BFC797DEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE88ACA6E680D25D079896FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE88A7640DA45BAB323D4022 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE88A639B76AC3C30FCEA163 /* RomanNumerals.app */,
+				AE88AEC475D24ABABFDE7EDD /* RomanNumeralsTests.xctest */,
+				AE88ACEB0216FB8E76C455CB /* RomanNumeralsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE88A79BFB018A5E8792FF57 /* RomanNumeralsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE88ADF3F5C74B75A6A764C0 /* Info.plist */,
+				AE88AAB073699BE5F406D27A /* RomanNumeralsUITests.swift */,
+			);
+			path = RomanNumeralsUITests;
+			sourceTree = "<group>";
+		};
+		AE88AA5798CE6C1907F6A9A7 = {
+			isa = PBXGroup;
+			children = (
+				7F9B166A216237930025465C /* Entries.strings */,
+				AE88A7640DA45BAB323D4022 /* Products */,
+				AE88AACCA511CCE38B2AA89C /* RomanNumerals */,
+				AE88AFA61DADC4B6BEEDB640 /* RomanNumeralsTests */,
+				AE88A79BFB018A5E8792FF57 /* RomanNumeralsUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		AE88AACCA511CCE38B2AA89C /* RomanNumerals */ = {
+			isa = PBXGroup;
+			children = (
+				AE88ABE339643C411647C322 /* Info.plist */,
+				AE88A8CF8BDD535BB36F7F34 /* Assets.xcassets */,
+				AE88A5228365F3A6D28E24CB /* RomanNumerals.entitlements */,
+				AE88ABC8D891C99B9C353DEC /* AppDelegate.swift */,
+				AE88A9AA0FC44B09F0DB118C /* Main.storyboard */,
+				AE88A67715F563D46D21A828 /* ViewController.swift */,
+				AE88A44588879CD81790F823 /* ViewModel.swift */,
+				AE88ADC0FEFE1F26BCFB9A3D /* RomanNumeralsConverter.swift */,
+				AE88AF15A5557D7CA3236441 /* RomanNumeralsConverterImpl.swift */,
+				AE88AEFB5E4138EB166E9AB5 /* RomanNumeralsConverterFactory.swift */,
+			);
+			path = RomanNumerals;
+			sourceTree = "<group>";
+		};
+		AE88AFA61DADC4B6BEEDB640 /* RomanNumeralsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE88AE902B31BCB277BF2D52 /* Info.plist */,
+				AE88ADBA921E93F76A3DFA2B /* RomanNumeralsTests.swift */,
+				AE88AF60957FF775124B79D8 /* RomanNumeralsViewModelTests.swift */,
+			);
+			path = RomanNumeralsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE88A46699FB5C2E612732A8 /* RomanNumeralsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE88AD4800A12181990271A1 /* Build configuration list for PBXNativeTarget "RomanNumeralsUITests" */;
+			buildPhases = (
+				AE88AA6CDA3C40FB15D13953 /* Sources */,
+				AE88A0EAB22F2933F14BDE91 /* Frameworks */,
+				AE88A2C916D5955C748BD301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE88ADE178B2DDC14A643627 /* PBXTargetDependency */,
+			);
+			name = RomanNumeralsUITests;
+			productName = RomanNumeralsUITests;
+			productReference = AE88ACEB0216FB8E76C455CB /* RomanNumeralsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AE88A504CF11D0389D7B86D6 /* RomanNumeralsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE88AD5B1E32F7B93AD06480 /* Build configuration list for PBXNativeTarget "RomanNumeralsTests" */;
+			buildPhases = (
+				AE88A4425CC4B3052F2AFFF6 /* Sources */,
+				AE88A64AE7DE74BFC797DEC5 /* Frameworks */,
+				AE88A17C3BCE9284CFAFDB2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE88A2FB17EA653A38C15462 /* PBXTargetDependency */,
+			);
+			name = RomanNumeralsTests;
+			productName = RomanNumeralsTests;
+			productReference = AE88AEC475D24ABABFDE7EDD /* RomanNumeralsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE88AA04964D5D0AE2C6B9DC /* RomanNumerals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE88A076815DE17C62B33FF6 /* Build configuration list for PBXNativeTarget "RomanNumerals" */;
+			buildPhases = (
+				AE88A0820EE4698C080630A8 /* Sources */,
+				AE88ACA6E680D25D079896FB /* Frameworks */,
+				AE88A1ADE7BD5EA6E93F2E7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomanNumerals;
+			productName = RomanNumerals;
+			productReference = AE88A639B76AC3C30FCEA163 /* RomanNumerals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE88ADEFD60ABB9CA7DA0B0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = AE88AB30236E464882C4FFAF /* Build configuration list for PBXProject "RomanNumerals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE88AA5798CE6C1907F6A9A7;
+			productRefGroup = AE88A7640DA45BAB323D4022 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE88AA04964D5D0AE2C6B9DC /* RomanNumerals */,
+				AE88A504CF11D0389D7B86D6 /* RomanNumeralsTests */,
+				AE88A46699FB5C2E612732A8 /* RomanNumeralsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE88A17C3BCE9284CFAFDB2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE88A1ADE7BD5EA6E93F2E7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE88A011BDD6865EA8053C77 /* Assets.xcassets in Resources */,
+				AE88A1F5AC57F91F19E32748 /* Main.storyboard in Resources */,
+				7F9B1668216237930025465C /* Entries.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE88A2C916D5955C748BD301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE88A0820EE4698C080630A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE88A5E32439C8026133ECA9 /* AppDelegate.swift in Sources */,
+				AE88A46B092CBFF4B48DA492 /* ViewController.swift in Sources */,
+				AE88A6B891005CEC0C812CA4 /* RomanNumeralsConverter.swift in Sources */,
+				AE88AE556AB37B7D6DFBE992 /* RomanNumeralsConverterImpl.swift in Sources */,
+				AE88AFCF81C0D6012BC830AE /* RomanNumeralsConverterFactory.swift in Sources */,
+				AE88A47415340FEEDCF6BA21 /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE88A4425CC4B3052F2AFFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE88A05810B381B60962B3DC /* RomanNumeralsTests.swift in Sources */,
+				AE88A85E2AF3BECBB09B6373 /* RomanNumeralsViewModelTests.swift in Sources */,
+				AE88AA11AF66AB20FFC23CCC /* RomanNumeralsConverter.swift in Sources */,
+				AE88ABA67985D85F8C6A82C2 /* RomanNumeralsConverterImpl.swift in Sources */,
+				AE88A3DCB46DF8E624CB45F1 /* RomanNumeralsConverterFactory.swift in Sources */,
+				AE88A7932961DE054E0E694C /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE88AA6CDA3C40FB15D13953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE88ABC436299D284E2CEB08 /* RomanNumeralsUITests.swift in Sources */,
+				AE88A5315666AEEB0CFD4CF7 /* RomanNumeralsConverter.swift in Sources */,
+				AE88A283018C73B4C0FB98F9 /* RomanNumeralsConverterImpl.swift in Sources */,
+				AE88A3D8DF5D735A41406325 /* RomanNumeralsConverterFactory.swift in Sources */,
+				AE88AFB9ED4D73E85A7DF2C9 /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE88A2FB17EA653A38C15462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE88AA04964D5D0AE2C6B9DC /* RomanNumerals */;
+			targetProxy = AE88A2E5EABBE4F0A7702710 /* PBXContainerItemProxy */;
+		};
+		AE88ADE178B2DDC14A643627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE88AA04964D5D0AE2C6B9DC /* RomanNumerals */;
+			targetProxy = AE88AFAC125E3E7D6B1FC2D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F9B166A216237930025465C /* Entries.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F9B1669216237930025465C /* en */,
+			);
+			name = Entries.strings;
+			sourceTree = "<group>";
+		};
+		AE88A9AA0FC44B09F0DB118C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE88AB478205B9C3B901D0BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE88A0FF964AAC9763E2AE4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE88A77C51777694FC9DB61B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RomanNumerals/RomanNumerals.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RomanNumerals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.romans.RomanNumerals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		AE88A99C9DFE2B6D08FCCBBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RomanNumeralsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.romans.RomanNumeralsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = RomanNumerals;
+			};
+			name = Debug;
+		};
+		AE88AAECB3D97AA2CE7E091B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RomanNumerals/RomanNumerals.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RomanNumerals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.romans.RomanNumerals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		AE88AAF37AAA57E9E1D076A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomanNumerals.app/Contents/MacOS/RomanNumerals";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RomanNumeralsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.romans.RomanNumeralsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AE88ADDFEF2F37AEA80A54BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RomanNumerals.app/Contents/MacOS/RomanNumerals";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RomanNumeralsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.romans.RomanNumeralsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		AE88AF597A6CB282AE081351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RomanNumeralsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.romans.RomanNumeralsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = RomanNumerals;
+			};
+			name = Release;
+		};
+		AE88AFB3130177ABDEDF568F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE88A076815DE17C62B33FF6 /* Build configuration list for PBXNativeTarget "RomanNumerals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE88A77C51777694FC9DB61B /* Debug */,
+				AE88AAECB3D97AA2CE7E091B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE88AB30236E464882C4FFAF /* Build configuration list for PBXProject "RomanNumerals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE88A0FF964AAC9763E2AE4A /* Debug */,
+				AE88AFB3130177ABDEDF568F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE88AD4800A12181990271A1 /* Build configuration list for PBXNativeTarget "RomanNumeralsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE88A99C9DFE2B6D08FCCBBC /* Debug */,
+				AE88AF597A6CB282AE081351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE88AD5B1E32F7B93AD06480 /* Build configuration list for PBXNativeTarget "RomanNumeralsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE88AAF37AAA57E9E1D076A6 /* Debug */,
+				AE88ADDFEF2F37AEA80A54BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE88ADEFD60ABB9CA7DA0B0F /* Project object */;
+}
