@@ -30,6 +30,9 @@ class ViewController: NSViewController, NSTextFieldDelegate {
         if number == 0 {
             convertedTextField.stringValue = "Please, only enter numerical values"
             convertedTextField.textColor = NSColor.red
+        } else if number > 10000 {
+            convertedTextField.stringValue = "Enter a number up to 10000"
+            convertedTextField.textColor = NSColor.red
         } else {
             convertedTextField.stringValue = viewModel.convert(number: number)
             convertedTextField.textColor = NSColor.white
