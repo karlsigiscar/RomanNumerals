@@ -6,22 +6,23 @@
 import Foundation
 
 class RomanNumeralsConverterImpl : RomanNumeralsConverter {
+    
+    var romanNumerals = [(value: 1000, roman: "M", isEdgeCase: false),
+                         (value: 900, roman: "CM", isEdgeCase: true),
+                         (value: 500, roman: "D", isEdgeCase: false),
+                         (value: 400, roman: "CD", isEdgeCase: true),
+                         (value: 100, roman: "C", isEdgeCase: false),
+                         (value: 90, roman: "XC", isEdgeCase: true),
+                         (value: 50, roman: "L", isEdgeCase: false),
+                         (value: 40, roman: "XL", isEdgeCase: true),
+                         (value: 10, roman: "X", isEdgeCase: false),
+                         (value: 5, roman: "V", isEdgeCase: false),
+                         (value: 1, roman: "I", isEdgeCase: false)
+    ]
+
     func convert(number: Int, index: Int = 0) -> String {
 
         var remnant = number
-        var romanNumerals = [(value: 1000, roman: "M", isEdgeCase: false),
-                             (value: 900, roman: "CM", isEdgeCase: true),
-                             (value: 500, roman: "D", isEdgeCase: false),
-                             (value: 400, roman: "CD", isEdgeCase: true),
-                             (value: 100, roman: "C", isEdgeCase: false),
-                             (value: 90, roman: "XC", isEdgeCase: true),
-                             (value: 50, roman: "L", isEdgeCase: false),
-                             (value: 40, roman: "XL", isEdgeCase: true),
-                             (value: 10, roman: "X", isEdgeCase: false),
-                             (value: 5, roman: "V", isEdgeCase: false),
-                             (value: 1, roman: "I", isEdgeCase: false)
-        ]
-
         let currentItem = romanNumerals[index]
         let currentValue = currentItem.value
         let currentNumeral = currentItem.roman

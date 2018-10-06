@@ -9,7 +9,7 @@
 import Cocoa
 
 
-class ViewController: NSViewController {
+class ViewController: NSViewController, NSTextFieldDelegate {
     
     @IBOutlet weak var textField: NSTextField!
     @IBOutlet weak var convertedTextField: NSTextField!
@@ -17,13 +17,16 @@ class ViewController: NSViewController {
     
     let viewModel = ViewModel()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Localize
+    @IBAction func buttonActionHandler(_ sender: Any) {
+        convert()
     }
     
-    @IBAction func convert(_ sender: Any) {
+    @IBAction func textFieldActionHandler(_ sender: Any) {
+        convert()
+    }
+    
+    func convert() {
         let number:Int = textField.integerValue
-        convertedTextField.stringValue = viewModel.convert(number: number)        
+        convertedTextField.stringValue = viewModel.convert(number: number)
     }
 }
