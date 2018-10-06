@@ -27,6 +27,12 @@ class ViewController: NSViewController, NSTextFieldDelegate {
     
     func convert() {
         let number:Int = textField.integerValue
-        convertedTextField.stringValue = viewModel.convert(number: number)
+        if number == 0 {
+            convertedTextField.stringValue = "Please, only enter numerical values"
+            convertedTextField.textColor = NSColor.red
+        } else {
+            convertedTextField.stringValue = viewModel.convert(number: number)
+            convertedTextField.textColor = NSColor.white
+        }
     }
 }
